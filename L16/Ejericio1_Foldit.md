@@ -49,6 +49,3 @@ La puntuación se basa en la estabilidad energética del modelo generado. Una me
 ## Conclusión
 
 Foldit representa una innovadora herramienta que integra educación, gamificación y ciencia colaborativa. Permite comprender de manera práctica cómo la estructura tridimensional de una proteína depende de la optimización energética y de las interacciones intramoleculares que estabilizan su conformación.
-
-Además, demuestra que la inteligencia colectiva puede contribuir significativamente a la resolución de problemas complejos en biología estructural.
-
