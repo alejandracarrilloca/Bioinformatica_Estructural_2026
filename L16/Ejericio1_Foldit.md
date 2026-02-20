@@ -1,7 +1,6 @@
 
 # **Foldit**
 **Dulce Alejandra Carrillo Carlos**
-**Lunes 16 de febrero de 2026**
 
 ## Introducción
 
