@@ -1,5 +1,5 @@
 # Reporte
-** Dulce Alejandra Carrillo Carlos**
+**Dulce Alejandra Carrillo Carlos**
 
 El análisis estructural de proteínas es una herramienta que permite evaluar relaciones evolutivas, funcionales y conformacionales más allá de la simple comparación de secuencias. Aunque la secuencia primaria puede variar considerablemente entre proteínas, su estructura tridimensional tiende a estar más conservada, lo que convierte a la superposición estructural en una estrategia clave para estudiar similitudes biológicas.
 
