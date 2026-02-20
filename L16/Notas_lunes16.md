@@ -1,5 +1,5 @@
 # Fundamentos estructurales de proteínas 
-** Dulce Alejandra Carrillo Carlos **
+**Dulce Alejandra Carrillo Carlos**
 
 ## 1. Estructuras de proteínas
 
