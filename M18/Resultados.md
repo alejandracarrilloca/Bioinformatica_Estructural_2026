@@ -78,7 +78,7 @@ Esto es consistente con la presencia de regiones dinámicas que no adoptan una c
 
 ### Estructura 3D
 
-![Estructura 3D](swiss_model_results/Protein3D.png)
+![Estructura 3D](swiss_results/Protein3D.png)
 
 La visualización tridimensional del modelo muestra:
 
