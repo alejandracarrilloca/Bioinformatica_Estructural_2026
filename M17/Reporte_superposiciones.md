@@ -25,5 +25,4 @@ Para calcular el porcentaje de identidad y el RMSD seleccionamos aleatoriamente 
 
 ## 4. Resultados
 
-Los resultados numéricos del análisis se encuentran en la carpeta: [results](./results/)
-[Reporte Markdown de resultados](./results/results.md)
+Los resultados numéricos del análisis se encuentran en: [Reporte de resultados](./results/results.md)
