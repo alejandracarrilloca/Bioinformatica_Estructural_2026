@@ -14,7 +14,6 @@ Los resultados muestran una identidad de secuencia baja-moderada y una desviaci�
 | RMSD                           | 3.65          |
 | Identidad de secuencia         | 32.43 %       |
 
-
 ## Análisis de la Comparación
 
 En esta superposición, la primera estructura contiene 126 residuos y la segunda 108 residuos, lo que indica que las proteínas tienen longitudes diferentes. De estos, 74 residuos pudieron alinearse correctamente.

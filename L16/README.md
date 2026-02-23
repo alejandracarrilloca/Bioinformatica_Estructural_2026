@@ -33,7 +33,6 @@ La puntuación se basa en la estabilidad energética del modelo generado. Una me
 
 ## Ejercicios 
 
-
 ![Ejercicio1](imagenes/Ejercicio1.png)
 ![Ejercicio2](imagenes/Ejercicio2.png)
 ![Ejercicio3](imagenes/Ejercicio3.png)
