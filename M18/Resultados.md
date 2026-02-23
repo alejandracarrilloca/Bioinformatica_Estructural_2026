@@ -9,9 +9,9 @@ La herramienta SAVES (Structural Analysis and Verification Server) proporciona u
 
 Los resultados obtenidos muestran:
 
-* **ERRAT**: El factor de calidad general es de **77.6062**. ERRAT analiza las estadísticas de interacciones no enlazadas entre diferentes tipos de átomos. Un valor más alto indica una mejor calidad estructural. En este caso, el valor obtenido sugiere que el modelo presenta una calidad global aceptable, aunque todavía pueden existir regiones con cierto grado de incertidumbre estructural o empaquetamiento subóptimo.
+* **ERRAT**: El factor de calidad general es de **77.6062**. Un valor más alto indica una mejor calidad estructural. En este caso, el valor obtenido nos dice que el modelo presenta una calidad aceptable, aunque todavía pueden existir regiones con cierto grado de incertidumbre estructural.
 
-* **VERIFY 3D**: El resultado es **FAIL**. Solo el **57%** de los residuos tienen una puntuación promediada 3D-1D >= 0.1. Para aprobar esta prueba, al menos el 80% de los residuos deben superar este umbral. Este resultado sugiere que algunas regiones del modelo no presentan un entorno estructural completamente compatible con su secuencia. Esto es común en proteínas que contienen regiones intrínsecamente desordenadas o altamente flexibles.
+* **VERIFY 3D**: El resultado es **FAIL**. Solo el **57%** de los residuos tienen una puntuación promediada 3D-1D >= 0.1. Para aprobar esta prueba, al menos el 80% de los residuos deben superar este umbral. Este resultado sugiere que algunas regiones del modelo no presentan un entorno estructural completamente compatible con su secuencia.
 
 
 ## Resultados de Swiss-Model Structure Assessment
@@ -36,10 +36,10 @@ El valor obtenido de 0.59 indica que el modelo presenta una **calidad estructura
 
 El análisis local muestra que:
 
-* La región central de la proteína presenta buena calidad estructural.  
-* Las regiones terminales presentan menor confianza estructural.  
+- La región central de la proteína presenta buena calidad estructural.  
+- Las regiones terminales presentan menor confianza estructural.  
 
-Esto sugiere la presencia de zonas desordenadas o dinámicas.
+Esto sugiere la presencia de zonas desordenadas.
 
 ### Gráfico de Ramachandran
 
@@ -55,8 +55,8 @@ En el gráfico observado:
 
 Esto indica que:
 
-✔ El modelo posee una geometría estereoquímica globalmente adecuada  
-⚠ Algunas posiciones presentan posibles tensiones estructurales  
+- El modelo posee una geometría estereoquímica globalmente adecuada  
+- Algunas posiciones presentan posibles tensiones estructurales  
 
 Este comportamiento es esperable en regiones flexibles o desordenadas.
 
@@ -87,7 +87,6 @@ La visualización tridimensional del modelo muestra:
 * Regiones extendidas con menor grado de orden  
 
 El modelo presenta una arquitectura global coherente, con dominios estructurados conectados por regiones más flexibles.
-
 
 ## Conclusión
 
