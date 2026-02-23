@@ -20,7 +20,7 @@ Swiss-Model proporciona métricas adicionales para evaluar la calidad geométric
 
 ### QMEAN y QMEANDisCo
 
-![QMEANDisCo](swiss_resuts/QME.png)
+![QMEANDisCo](swiss_results/QME.png)
 
 **QMEANDisCo Global**: El valor obtenido fue de **0.59 ± 0.05**.
 
@@ -43,7 +43,7 @@ Esto sugiere la presencia de zonas desordenadas o dinámicas.
 
 ### Gráfico de Ramachandran
 
-![Ramachandran Plot](swiss_resuts/Ramachandran.png)
+![Ramachandran Plot](swiss_results/Ramachandran.png)
 
 El gráfico de Ramachandran visualiza los ángulos diedros φ (phi) y ψ (psi) del esqueleto de la proteína.
 
@@ -78,7 +78,7 @@ Esto es consistente con la presencia de regiones dinámicas que no adoptan una c
 
 ### Estructura 3D
 
-![Estructura 3D](swiss_model_resuts/Protein3D.png)
+![Estructura 3D](swiss_model_results/Protein3D.png)
 
 La visualización tridimensional del modelo muestra:
 
