@@ -65,16 +65,7 @@ Surge gracias a:
 - Alta capacidad de cómputo.
 - Uso de redes neuronales profundas.
 
-# CASP
-
-Experimento bianual donde:
-- Se publican secuencias sin estructura conocida.
-- Diferentes grupos intentan predecirlas.
-- Se comparan las predicciones con la estructura experimental.
-
-Con AlphaFold hubo una mejora muy grande en la métrica GDT_TS.
-
-## AlphaFold 2
+## 1. AlphaFold 2
 
 Entrada:
 - Secuencia problema.
@@ -91,13 +82,13 @@ Pasos principales:
 
 Importante: predice distribuciones de distancias, no solo si dos residuos están en contacto o no.
 
-## AlphaFold 3
+## 2. AlphaFold 3
 
 - Menor dependencia del alineamiento múltiple.
 - Usa modelos de difusión (similares a los usados en generación de imágenes).
 - Permite modelar complejos proteína-proteína, proteína-ADN y proteína-ligando.
 
-## Métricas de AlphaFold
+## 3. Métricas de AlphaFold
 
 ### pLDDT
 
