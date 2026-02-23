@@ -33,7 +33,6 @@ Esta estrategia permite distinguir entre:
 - Desorden estructural funcional.
 - Arquitectura del dominio de unión al ADN.
 
-
 # 4. Resultados de AlphaFold
 
 ## 4.1 Modelo Completo (NF_full)
