@@ -1,7 +1,7 @@
 # Protein Fold Recognition
 *Dulce Alejandra Carrillo Carlos*
 
-Problema clásico: tengo la secuencia de una proteína pero no sé cuál es su plegamiento ni su función.
+Problema: tengo la secuencia de una proteína pero no sé cuál es su plegamiento ni su función.
 Muchas veces la secuencia no se parece a casi nada en BLAST o FASTA, o solo a proteínas poco caracterizadas.
 
 Idea clave: la estructura está más conservada que la secuencia.
@@ -13,7 +13,7 @@ Entonces lo que se hace es:
 
 Se usa especialmente cuando los métodos convencionales de búsqueda por secuencia fallan.
 
-# Modelado por Homología
+## Modelado por Homología
 
 Se usa cuando:
 - Tengo la secuencia de una proteína A.
@@ -23,7 +23,7 @@ Se usa cuando:
 Principio básico:
 Si dos proteínas son similares en secuencia, probablemente también lo sean en estructura.
 
-Dos enfoques principales:
+Dos enfoques:
 
 1. Ensamblaje de fragmentos estructurales
    - Ejemplos: SWISS-MODEL, ROBETTA.
@@ -36,7 +36,7 @@ Dos enfoques principales:
 
 Muy útil para estudiar el efecto de mutaciones puntuales.
 
-# Predicción de Contactos
+## Predicción de Contactos
 
 En un alineamiento múltiple, si dos posiciones mutan de manera correlacionada, es probable que estén en contacto en la estructura 3D.
 
@@ -46,7 +46,7 @@ Se estudia:
 
 A partir de eso se construyen matrices de contacto que ayudan en el modelado estructural.
 
-# Mutaciones Puntuales
+## Mutaciones Puntuales
 
 El efecto de una mutación depende mucho del contexto estructural.
 
@@ -74,7 +74,7 @@ Experimento bianual donde:
 
 Con AlphaFold hubo una mejora muy grande en la métrica GDT_TS.
 
-# AlphaFold 2
+## AlphaFold 2
 
 Entrada:
 - Secuencia problema.
@@ -91,15 +91,15 @@ Pasos principales:
 
 Importante: predice distribuciones de distancias, no solo si dos residuos están en contacto o no.
 
-# AlphaFold 3
+## AlphaFold 3
 
 - Menor dependencia del alineamiento múltiple.
 - Usa modelos de difusión (similares a los usados en generación de imágenes).
 - Permite modelar complejos proteína-proteína, proteína-ADN y proteína-ligando.
 
-# Métricas de AlphaFold
+## Métricas de AlphaFold
 
-## pLDDT
+### pLDDT
 
 - Confianza por residuo.
 - Toma valores de 0 a 100.
@@ -108,7 +108,7 @@ Importante: predice distribuciones de distancias, no solo si dos residuos están
 
 Está relacionado con la métrica experimental lDDT.
 
-## PAE (Predicted Aligned Error)
+### PAE (Predicted Aligned Error)
 
 - Mide el error esperado entre residuos si se superpone el modelo con la estructura real.
 - Se mide en angstroms.
@@ -116,7 +116,7 @@ Está relacionado con la métrica experimental lDDT.
 
 Si el PAE entre dominios es alto, no se debe confiar en su orientación relativa.
 
-# Otros Algoritmos
+## Otros Algoritmos
 
 - RosettaFold.
 - RFdiffusion (muy usado en diseño de proteínas).
