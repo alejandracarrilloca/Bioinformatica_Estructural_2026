@@ -34,15 +34,15 @@ La puntuación se basa en la estabilidad energética del modelo generado. Una me
 ## Ejercicios 
 
 
-![Ejercicio1](Ejercicio1.png)
-![Ejercicio2](Ejercicio2.png)
-![Ejercicio3](Ejercicio3.png)
-![Ejercicio4](Ejercicio4.png)
-![Ejercicio5](Ejercicio5.png)
-![Ejercicio6](Ejercicio6.png)
-![Ejercicio7](Ejercicio7.png)
-![Ejercicio8](Ejercicio8.png)
-![Ejercicio9](Ejercicio9.png)
+![Ejercicio1](imagenes/Ejercicio1.png)
+![Ejercicio2](imagenes/Ejercicio2.png)
+![Ejercicio3](imagenes/Ejercicio3.png)
+![Ejercicio4](imagenes/Ejercicio4.png)
+![Ejercicio5](imagenes/Ejercicio5.png)
+![Ejercicio6](imagenes/Ejercicio6.png)
+![Ejercicio7](imagenes/Ejercicio7.png)
+![Ejercicio8](imagenes/Ejercicio8.png)
+![Ejercicio9](imagenes/Ejercicio9.png)
 
 
 ## Conclusión
