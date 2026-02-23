@@ -2,7 +2,6 @@
 *Dulce Alejandra Carrillo Carlos*
 
 Problema clásico: tengo la secuencia de una proteína pero no sé cuál es su plegamiento ni su función.
-
 Muchas veces la secuencia no se parece a casi nada en BLAST o FASTA, o solo a proteínas poco caracterizadas.
 
 Idea clave: la estructura está más conservada que la secuencia.
@@ -13,7 +12,6 @@ Entonces lo que se hace es:
 - Obtener una lista ordenada de posibles folds.
 
 Se usa especialmente cuando los métodos convencionales de búsqueda por secuencia fallan.
-
 
 # Modelado por Homología
 
